@@ -1,0 +1,44 @@
+{
+    "my":{
+        "Projects":{
+            "img": "/images/Projects.png",
+            "title": "Benim Projelerim",
+            "description": "Projelerime bakmak için tıklayınız.",
+            "navigate": "Projects"
+        },
+        "Github":{
+            "img": "/images/github.png",
+            "title": "Benim Github",
+            "description": "Github hesabımı ziyaret etmek için tıklayınız.",
+            "navigate": "https://github.com/lackfadiriso"
+        },
+        "Itchio":{
+            "img": "/images/Itchio.png",
+            "title": "Benim Itch.io",
+            "description": "Itch.io hesabımı ziyaret etmek için tıklayınız.",
+            "navigate": "https://sneakdreams.itch.io/"
+        }
+    },
+    "projects":{
+        "AllInOne": {
+            "img" : "/images/AllOne.png",
+            "title": "All In One",
+            "description": "API’lerle pratik yapmak için geliştirdiğim projede ReactJS kullanarak bir Todo Uygulaması, Döviz Kuru Uygulaması ve Hava Durumu Tahmini yer alıyor. Şimdi ise Next.js kullanıyorum; önceki zamana göre kodlarımı daha temiz yazabiliyor ve uygulamayı önceki hâline göre daha responsive hâle getirebiliyorum.",
+            "navigate": "https://hepsibir.netlify.app/"
+        },
+        "AboutOther": {
+            "img": "/images/spongebob-work.gif",
+            "title": "Diğer Projelerim",
+            "description": "Diğer projelerim daha büyük ölçekli ve bir backend gerektiriyor, bu yüzden şu anda Yandex Practicum’da bir backend kursu alıyorum. Bu arada, Python ile yaptığım projelere GitHub üzerinden, geliştirdiğim oyunlara ise Itch.io üzerinden göz atabilirsiniz.",
+            "navigate": "/"
+        }
+    },
+    "about": [
+    {
+        "certificate": "Sertifikalar",
+        "my": "Benim",
+        "about": "Merhaba! Ben Ali, 20 yaşındayım ve Türkçe ile Rusça biliyorum, İngilizcemi geliştirmekteyim. 12-13 yaşımda yazılıma ilgim başladı ve Python ile çeşitli projeler geliştirme deneyimi kazandım. Frontend olarak Next.js + Typescript + Redux Toolkit + Tailwind CSS ile responsive ve API destekli web uygulamaları geliştirebiliyorum. Ayrıca oyun geliştirme deneyimim de var: 1 oyun Windows için, 2 oyun Android için geliştirilmiş olup şu anda itch.io’da yayınlanıyor. Şu anda Yandex Practicum'da Python backend dersleri alıyorum. Hedefim, kullanıcı odaklı, modern ve sürdürülebilir web uygulamaları geliştirmek, projelerimde hem tasarımı hem teknolojiyi en üst seviyeye taşımak.",
+        "date": "**Güncellenme Tarihi: 28.08.2025**"
+    }
+    ]
+}

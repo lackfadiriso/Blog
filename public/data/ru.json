@@ -1,0 +1,49 @@
+{
+    "my":{
+        "Projects":{
+            "img": "/images/Projects.png",
+            "title": "My Deneme",
+            "description": "Here you can see my projects",
+            "navigate": "Projects"
+        },
+        "Github":{
+            "img": "/images/github.png",
+            "title": "My Github",
+            "description": "Here you can see my github projects and find my account",
+            "navigate": ""
+        },
+        "Sithub":{
+            "img": "/images/github.png",
+            "title": "My Ru",
+            "description": "Here you can see my github projects and find my account",
+            "navigate": ""
+        },
+        "hithub":{
+            "img": "/images/github.png",
+            "title": "My Github",
+            "description": "Here you can see my github projects and find my account",
+            "navigate": ""
+        }
+    },
+    "projects":{
+        "AllInOne": {
+            "img" : "/images/AllOne.png",
+            "title": "All In One",
+            "description": "Within the project I developed for practice with APIs, which I built using ReactJS, there is a Todo App, a Currency Exchange, and a Weather Forecast. Now I’m using Next.js, which allows me to write cleaner code and make the app more responsive compared to before.",
+            "navigate": "https://hepsibir.netlify.app/"
+        },
+        "AboutOther": {
+            "img": "/images/spongebob-work.gif",
+            "title": "My Other Projects",
+            "description": "My other projects are larger in scale and require a backend, so I’m currently taking a backend course at Yandex Practicum. Meanwhile, you can check out the projects I’ve done in Python on GitHub, or the games I’ve developed on Itch.io.",
+            "navigate": "/"
+        }
+    },
+    "about": [
+    {
+        "certificate": "Sertifikalar",
+        "about": "Merhaba! Ben Ali, 20 yaşındayım ve Türkçe ve Rusça biliyorum, İngilizcemi geliştirmekteyim.\nYazılıma ilgim 12-13 yaşımda başladı. İlk olarak C++ ile temel programlama öğrendim, ardından Python’a geçtim ve siber güvenlik alanında kendimi geliştirdim...\n...",
+        "date": "28.08.2025"
+    }
+    ]
+}
