@@ -9,13 +9,16 @@ import gsap from 'gsap'
 import { useSelector } from 'react-redux'
 import { RootState } from '../redux/store'
 import Image from 'next/image';
+import CertificateList from './CertificateList';
 
 const MainContent = () => {
   const { aboutItems } = useSelector((store: RootState) => store.WebProjects)
+  const { certificateItems } = useSelector((store: RootState) => store.WebProjects)
+
   const [width, setWidth] = useState<number>(200)
   const [height, setHeight] = useState<number>(300)
 
-  // Yazı geliş efekti
+  // Text animations 
   useEffect(()=>{
     gsap.fromTo(
       ".title span",
@@ -40,7 +43,7 @@ const MainContent = () => {
       }
     };
 
-    handleResize(); // sayfa ilk yüklendiğinde de çalışması için
+    handleResize();
     window.addEventListener("resize", handleResize);
 
     return () => {
@@ -76,6 +79,12 @@ const MainContent = () => {
             {aboutItems.map((item, i) => (<h1 key={i}>{item.my}</h1>))}
 
             <ProjectList/>
+        </div>
+
+        <div>
+          {aboutItems.map((item, i) => (<h1 key={i}>{item.certificates}</h1>))}
+
+          <CertificateList/>
         </div>
 
         <Footer/>

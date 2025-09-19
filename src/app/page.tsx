@@ -3,7 +3,7 @@ import Image from "next/image";
 import MainContent from "./components/MainContent";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
-import { getAboutItems, getMenuItems } from "./redux/WebprojectsSlice";
+import { getAboutItems, getCertificateItems, getMenuItems } from "./redux/WebprojectsSlice";
 import type { AppDispatch, RootState } from "./redux/store";
 import LanguageSelect from "./components/LanguageSelect";
 import gsap from "gsap";
@@ -15,8 +15,11 @@ export default function Home() {
   
   useEffect(() => {
       dispatch(getMenuItems(localStorage.getItem("lang") || "eng"))
+      dispatch(getCertificateItems(localStorage.getItem("lang") || "eng"))
       dispatch(getAboutItems(localStorage.getItem("lang") || "eng"))
+
   }, [dispatch, language])
+
   return (
     <div className="flex w-screen h-screen lg:py-[40px] lg:px-[160px] justify-center text-white overflow-x-hidden">
       <div className="container">

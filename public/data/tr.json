@@ -35,6 +35,7 @@
     },
     "about": [
     {
+        "certificates": "Sertifikalar",
         "my": "Benim",
         "about": "Merhaba! Ben Ali, 20 yaşındayım ve Türkçe ile Rusça biliyorum, İngilizcemi geliştirmekteyim. 12-13 yaşımda yazılıma ilgim başladı ve Python ile çeşitli projeler geliştirme deneyimi kazandım. Frontend olarak Next.js + Typescript + Redux Toolkit + Tailwind CSS ile responsive ve API destekli web uygulamaları geliştirebiliyorum. Ayrıca oyun geliştirme deneyimim de var: 1 oyun Windows için, 2 oyun Android için geliştirilmiş olup şu anda itch.io’da yayınlanıyor. Şu anda Yandex Practicum'da Python backend dersleri alıyorum. Hedefim, kullanıcı odaklı, modern ve sürdürülebilir web uygulamaları geliştirmek, projelerimde hem tasarımı hem teknolojiyi en üst seviyeye taşımak.",
         "date": "**Güncellenme Tarihi: 28.08.2025**"
@@ -42,9 +43,22 @@
 
     "certificates":{
         "Mudanya": {
-            "title": "Mudanya University",
-            "img": "Mudanya.jpg",
-            "link": "https://drive.google.com/file/d/1o1ZGiVaBPwaaEttLCMVryyxmYxIN5H_3/view?usp=drive_link"
+            "title": "Mudanya Üniversitesi",
+            "description": "PDF'e gitmek için tıklayınız.",
+            "img": "/images/Mudanya.jpg",
+            "navigate": "https://drive.google.com/file/d/1o1ZGiVaBPwaaEttLCMVryyxmYxIN5H_3/view?usp=drive_link"
+        },
+        "Comming Soon": {
+            "title": "Mudanya Üniversitesi",
+            "description": "PDF'e gitmek için tıklayınız.",
+            "img": "/images/Mudanya.jpg",
+            "navigate": "https://drive.google.com/file/d/1o1ZGiVaBPwaaEttLCMVryyxmYxIN5H_3/view?usp=drive_link"
+        },
+        "Comming Soon2": {
+            "title": "Mudanya Üniversitesi",
+            "description": "PDF'e gitmek için tıklayınız.",
+            "img": "/images/Mudanya.jpg",
+            "navigate": "https://drive.google.com/file/d/1o1ZGiVaBPwaaEttLCMVryyxmYxIN5H_3/view?usp=drive_link"
         }
     }
     

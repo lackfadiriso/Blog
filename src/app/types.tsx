@@ -6,6 +6,7 @@ export interface Project {
 }
 
 export interface About{
+    certificates: string,
     my: string,
     about: string,
     date: string,
@@ -13,8 +14,9 @@ export interface About{
 
 export interface MyCertificates{
     title: string,
+    description: string,
     img: string,
-    link: string
+    navigate: string
 }
 
 export interface ProjectsList {
