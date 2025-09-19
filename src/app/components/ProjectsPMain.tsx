@@ -69,7 +69,7 @@ const ProjectsPMain = () => {
   return (
     <div className='flex flex-col-reverse md:flex-row-reverse justify-center overflow-x-hidden items-center'>
         <div className='flex flex-col-reverse sm:flex-row-reverse justify-center gap-x-5 md:items-center pb-10 border w-11/12 lg:w-11/12 xl:w-1/2 h-fit rounded-2xl '>
-        <div>
+        <div className='mx-2 md:mx-0'>
             <h1>{selectedProjects?.title || "All In One"}</h1>
             <p className='mainP max-w-[888px]'>{selectedProjects?.description || `Within the project I developed for practice with APIs, which I built using ReactJS, 
                     there is a Todo App, a Currency Exchange, and a Weather Forecast. 
