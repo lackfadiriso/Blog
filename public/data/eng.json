@@ -1,49 +1,52 @@
 {
-    "my":{
-        "Projects":{
+    "my": {
+        "Projects": {
             "img": "/images/Projects.png",
             "title": "My Projects",
-            "description": "Here you can see my projects",
+            "description": "Click here to view my projects.",
             "navigate": "Projects"
         },
-        "Github":{
+        "Github": {
             "img": "/images/github.png",
             "title": "My Github",
-            "description": "Here you can see my github projects and find my account",
-            "navigate": ""
+            "description": "Click here to visit my Github account.",
+            "navigate": "https://github.com/lackfadiriso"
         },
-        "Sithub":{
-            "img": "/images/github.png",
-            "title": "My Github",
-            "description": "Here you can see my github projects and find my account",
-            "navigate": ""
-        },
-        "hithub":{
-            "img": "/images/github.png",
-            "title": "My Github",
-            "description": "Here you can see my github projects and find my account",
-            "navigate": ""
+        "Itchio": {
+            "img": "/images/Itchio.png",
+            "title": "My Itch.io",
+            "description": "Click here to visit my Itch.io account.",
+            "navigate": "https://sneakdreams.itch.io/"
         }
     },
-    "projects":{
+    "projects": {
         "AllInOne": {
-            "img" : "/images/AllOne.png",
+            "img": "/images/AllOne.png",
             "title": "All In One",
-            "description": "Within the project I developed for practice with APIs, which I built using ReactJS, there is a Todo App, a Currency Exchange, and a Weather Forecast. Now I’m using Next.js, which allows me to write cleaner code and make the app more responsive compared to before.",
+            "description": "This project, developed to practice APIs, includes a Todo App, a Currency Converter, and a Weather Forecast App using ReactJS. Currently, I am using Next.js; compared to before, I can write cleaner code and make the app more responsive.",
             "navigate": "https://hepsibir.netlify.app/"
         },
         "AboutOther": {
             "img": "/images/spongebob-work.gif",
-            "title": "My Other Projects",
-            "description": "My other projects are larger in scale and require a backend, so I’m currently taking a backend course at Yandex Practicum. Meanwhile, you can check out the projects I’ve done in Python on GitHub, or the games I’ve developed on Itch.io.",
+            "title": "Other Projects",
+            "description": "My other projects are larger in scale and require a backend, so I am currently taking a backend course at Yandex Practicum. In the meantime, you can check my Python projects on GitHub and my games on Itch.io.",
             "navigate": "/"
         }
     },
     "about": [
-    {
-        "certificate": "Sertifikalar",
-        "about": "Merhaba! Ben Ali, 20 yaşındayım ve Türkçe ve Rusça biliyorum, İngilizcemi geliştirmekteyim.\nYazılıma ilgim 12-13 yaşımda başladı. İlk olarak C++ ile temel programlama öğrendim, ardından Python’a geçtim ve siber güvenlik alanında kendimi geliştirdim...\n...",
-        "date": "28.08.2025"
+        {
+            "certificates": "Certificates",
+            "my": "My",
+            "about": "Hello! I'm Ali, 20 years old, and I speak Turkish and Russian, while improving my English. I became interested in programming around 12-13 years old and gained experience developing various projects with Python. As a frontend developer, I build responsive and API-supported web applications using Next.js + TypeScript + Redux Toolkit + Tailwind CSS. I also have game development experience: 1 game for Windows and 2 games for Android, currently published on Itch.io. I am currently taking Python backend courses at Yandex Practicum. My goal is to develop user-focused, modern, and sustainable web applications, optimizing both design and technology in my projects.",
+            "date": "**Last Updated: 28.08.2025**"
+        }
+    ],
+    "certificates": {
+        "Mudanya": {
+            "title": "Mudanya University",
+            "description": "Click here to view the PDF.",
+            "img": "/images/Mudanya.jpg",
+            "navigate": "https://drive.google.com/file/d/1o1ZGiVaBPwaaEttLCMVryyxmYxIN5H_3/view?usp=drive_link"
+        }
     }
-    ]
 }

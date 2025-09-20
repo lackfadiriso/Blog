@@ -62,7 +62,10 @@ const MainContent = () => {
             </h1>
             {aboutItems.map((item, i) => (
               <div key={i} className="flex-1 flex flex-col max-w-[686px] mainP gap-y-5">
-                  <div className='max-h-[200px] md:max-h-[300px] overflow-y-auto'><ReactMarkdown>{item.about}</ReactMarkdown></div>
+                  <div className='max-h-[200px] md:max-h-[300px] overflow-y-auto'>
+                    <ReactMarkdown>{item.about}</ReactMarkdown>
+                  </div>
+
                   <div className='bg-blue-500 rounded-b-2xl text-center'>
                     <ReactMarkdown>{item.date}</ReactMarkdown>
                   </div>
@@ -70,20 +73,27 @@ const MainContent = () => {
             ))}
             </div>
 
-            <div className='flex-1 ml-2 overflow-y-clip flex justify-center sm:justify-start'>
-              <Image className="rounded-t-full border-2 border-yellow-400" src="/images/profil.jpg" alt="Profile picture" width={width} height={height} style={{minWidth:width, minHeight:height}} quality={100} unoptimized/>
+            <div className='flex-1 ml-2 overflow-y-clip flex justify-center sm:justify-start items-center'>
+              <Image 
+                className="rounded-t-full border-2 border-yellow-400" 
+                src="/images/profil.jpg" 
+                alt="Profile picture" 
+                width={width} 
+                height={height} 
+                style={{minWidth:width, minHeight:height, maxWidth:"100%", maxHeight:"85%"}} 
+                quality={100} 
+                unoptimized
+              />
             </div>
         </div>
         
         <div>
             {aboutItems.map((item, i) => (<h1 key={i}>{item.my}</h1>))}
-
             <ProjectList/>
         </div>
 
-        <div>
+        <div className='mt-10 md:mt-0'>
           {aboutItems.map((item, i) => (<h1 key={i}>{item.certificates}</h1>))}
-
           <CertificateList/>
         </div>
 

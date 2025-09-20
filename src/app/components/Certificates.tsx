@@ -12,7 +12,10 @@ const Certificates = () => {
   return (
     <div className='flex lg:flex-row flex-col gap-8 lg:overflow-y-hidden max-w-full transform h-full mx-2 sm:mx-0'>
             {Object.entries(certificateItems ?? {}).map(([key, product], i) => (
-                <div key={i} className='rounded-2xl bg-[rgba(255,255,255,0.02)] backdrop-blur-lg lg:min-w-[760px] lg:min-h-[480px] inter hover:shadow-md shadow-black mb-2 cursor-pointer' 
+                <div key={i} className='rounded-2xl bg-[rgba(255,255,255,0.02)] 
+                backdrop-blur-lg lg:min-w-[760px] lg:min-h-[480px] 
+                inter hover:shadow-md shadow-black mb-2 cursor-pointer'
+
                 onClick={() => {
                     if (product.navigate.startsWith("http")) {
                         window.open(product.navigate, "_blank", "noopener");
@@ -20,8 +23,15 @@ const Certificates = () => {
                         router.push(product.navigate);
                     }
                 }}>
-                    <div className='w-full p-[8px] select-none flex justify-center'>
-                        <Image src={product.img} alt={product.title} className='w-full flex rounded-2xl' width={760} height={480} quality={100} unoptimized style={{ maxWidth: "auto", height: "100%" }}/>
+                    <div className={`w-full max-w-[760px] p-[8px] select-none flex justify-center`}>
+                        <Image src={product.img} 
+                        alt={product.title} 
+                        className='w-full flex rounded-2xl' 
+                        width={760} 
+                        height={380} 
+                        quality={100} 
+                        unoptimized 
+                        style={{ maxWidth: "90%", height: "90%"}}/>
                     </div>
     
                     <div className='flex flex-row inter py-3 px-10'>
