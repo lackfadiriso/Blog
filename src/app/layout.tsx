@@ -5,8 +5,8 @@ import { store } from "./redux/store";
 import { Providers } from "./redux/Providers";
 
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "My portfolio",
+  title: "Blog",
+  description: "About me and my projects",
 };
 
 export default function RootLayout({

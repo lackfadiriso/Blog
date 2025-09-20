@@ -21,6 +21,7 @@ const LanguageSelect = () => {
   useEffect(() => {
     const langFromUrl = searchParams.get('lang')?.toLowerCase()
     const savedLang = langFromUrl || localStorage.getItem('lang') || 'eng'
+
     setSelectedLang(savedLang)
     dispatch(changeLang(savedLang))
   }, [dispatch, searchParams])

@@ -1,11 +1,18 @@
 "use client"
 import Image from "next/image";
+
 import MainContent from "./components/MainContent";
+
 import { useDispatch } from "react-redux";
+
 import { useEffect } from "react";
+
 import { getAboutItems, getCertificateItems, getMenuItems } from "./redux/WebprojectsSlice";
+
 import type { AppDispatch } from "./redux/store";
+
 import LanguageSelect from "./components/LanguageSelect";
+
 import { useSearchParams } from "next/navigation";
 
 export default function Home() {

@@ -3,13 +3,12 @@ import React, { useEffect, useState } from 'react'
 import Projects from './Projects'
 import Footer from './Footer'
 import ReactMarkdown from "react-markdown";
-import ProjectList from './ProjectList'
-import Header from './Header'
 import gsap from 'gsap'
 import { useSelector } from 'react-redux'
 import { RootState } from '../redux/store'
 import Image from 'next/image';
-import CertificateList from './CertificateList';
+import Listing from '../CustomComponents/Listing';
+import Certificates from './Certificates';
 
 const MainContent = () => {
   const { aboutItems } = useSelector((store: RootState) => store.WebProjects)
@@ -89,12 +88,12 @@ const MainContent = () => {
         
         <div>
             {aboutItems.map((item, i) => (<h1 key={i}>{item.my}</h1>))}
-            <ProjectList/>
+            <Listing><Projects/></Listing>
         </div>
 
         <div className='mt-10 md:mt-0'>
           {aboutItems.map((item, i) => (<h1 key={i}>{item.certificates}</h1>))}
-          <CertificateList/>
+          <Listing><Certificates/></Listing>
         </div>
 
         <Footer/>
