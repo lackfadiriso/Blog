@@ -1,4 +1,5 @@
 "use client"
+
 import React, { useEffect, useRef, useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { AppDispatch } from '../redux/store'
@@ -52,8 +53,8 @@ const LanguageSelect = () => {
   return (
     <div ref={mainDiv} className='relative text-black font-bold flex flex-row w-fit'>
       <div className='flex flex-col gap-y-3 justify-center items-center border min-w-15 max-w-15 py-5
-        border-[rgba(255,255,255,0.05)] rounded-4xl z-20 
-        bg-[rgba(255,255,255,0.6)] md:bg-[rgba(255,255,255,0.05)]'
+         border-[rgba(255,255,255,0.05)] rounded-4xl z-20 
+         bg-[rgba(255,255,255,0.6)] md:bg-[rgba(255,255,255,0.05)]'
       >
         {languages.map((lang, i) => (
           <div 
